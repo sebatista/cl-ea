@@ -1,9 +1,9 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
-    "name": "Reporte de stock aeroo",
+    "name": "Reporte de stock aeroo customizado",
     "summary": "Remito Modificado para Eugenio Aguirre",
     "version": "11.0.0.0.0",
-    "development_status": "Alpha",  # "Alpha|Beta|Production/Stable|Mature"
+    "development_status": "Beta",  # "Alpha|Beta|Production/Stable|Mature"
     "category": "Stock",
     "website": "https://github.com/sebatista/ea_jobiols",
     "author": "jeo Software",
@@ -13,7 +13,8 @@
     "installable": True,
     "depends": [
         'l10n_ar_aeroo_stock',
-        'base',
+        'stock',
+        'sale',
     ],
     "data": [
         'report/invoice_report.xml',
