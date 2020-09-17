@@ -55,7 +55,7 @@
     'git-repos': [
         'https://github.com/sebatista/EA_Jobiols.git',
 
-        'https://github.com/jobiols/odoo-addons.git',
+        # 'https://github.com/jobiols/odoo-addons.git',
 
         'https://github.com/ingadhoc/odoo-argentina.git',
         'https://github.com/ingadhoc/account-financial-tools.git',
@@ -64,14 +64,14 @@
         'https://github.com/ingadhoc/argentina-reporting.git',
         'https://github.com/ingadhoc/reporting-engine.git',
         'https://github.com/ingadhoc/aeroo_reports.git',
-        'https://github.com/ingadhoc/sale.git',
-        'https://github.com/ingadhoc/product.git',
-        'https://github.com/ingadhoc/account-invoicing.git',
+        # 'https://github.com/ingadhoc/sale.git',
+        # 'https://github.com/ingadhoc/product.git',
+        # 'https://github.com/ingadhoc/account-invoicing.git',
         'https://github.com/ingadhoc/argentina-sale.git',
         'https://github.com/ingadhoc/stock.git',
 
-        # 'https://github.com/oca/partner-contact.git',
-        # 'https://github.com/oca/web.git',
+        'https://github.com/oca/partner-contact.git',
+        'https://github.com/oca/web.git',
         # 'https://github.com/oca/server-tools.git',
         # 'https://github.com/oca/social.git',
         # 'https://github.com/oca/server-ux.git',
@@ -79,7 +79,7 @@
         # 'https://github.com/oca/manufacture.git',
         # 'https://github.com/oca/manufacture-reporting.git',
         # 'https://github.com/oca/management-system.git',
-        # 'https://github.com/oca/sale-workflow.git',
+        #  'https://github.com/oca/sale-workflow.git',
         # 'https://github.com/oca/stock-logistics-warehouse.git',
         # 'https://github.com/oca/stock-logistics-workflow.git',
 
