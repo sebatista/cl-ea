@@ -73,7 +73,7 @@
         'https://github.com/oca/partner-contact.git',
         'https://github.com/oca/web.git',
         # 'https://github.com/oca/server-tools.git',
-        # 'https://github.com/oca/social.git',
+        'https://github.com/oca/social.git',
         # 'https://github.com/oca/server-ux.git',
         # 'https://github.com/oca/server-brand.git',
         # 'https://github.com/oca/manufacture.git',
