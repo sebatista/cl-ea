@@ -20,7 +20,7 @@
 
 {
     'name': 'EA',
-    'version': '11.0.0.0.0',
+    'version': '11.0.1.0.0',
     'category': 'Tools',
     'summary': "Eugenio Aguirre project module",
     'author': "jeo Software",
@@ -50,6 +50,11 @@
 
     # port where odoo starts serving pages
     'port': '8069',
+
+    'config': [
+        'workers = 0',
+        'max_cron_threads = 1',
+    ],
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
