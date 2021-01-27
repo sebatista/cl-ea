@@ -12,9 +12,9 @@
 #
 source /opt/maintainer-tools/env/bin/activate
 oca-gen-addon-readme \
-	--org-name TecnoproPy \
-	--repo-name odoo-paraguay \
-	--branch 13.0 \
+	--org-name jobiols \
+	--repo-name ea_jobiols \
+	--branch 11.0 \
 	--addons-dir "$PWD" \
 	--gen-html
 
