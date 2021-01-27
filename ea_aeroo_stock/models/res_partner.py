@@ -14,4 +14,4 @@ class ResPartner(models.Model):
 
         for rec in self:
             delivery = rec.child_ids.filtered(lambda r: r.type == "delivery")
-            rec.delivery_address_id = delivery[0] if delivery else rec.street
+            rec.delivery_address_id = delivery[0] if delivery else rec
