@@ -94,5 +94,6 @@
         'odoo jobiols/odoo-jeo:11.0',
         'postgres postgres:9.5-alpine',
         'aeroo jobiols/aeroo-docs'
+        'nginx nginx'
     ]
 }
