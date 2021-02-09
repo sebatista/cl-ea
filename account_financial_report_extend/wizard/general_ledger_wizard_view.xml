@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- general.ledger.report.wizard inherit form view -->
+<record id="general_ledger_wizard" model="ir.ui.view">
+    <field name="name">ACCOUNT FINANCIAL REPORT EXTEND add page notebook</field>
+    <field name="model">general.ledger.report.wizard</field>
+    <field name="inherit_id" ref="account_financial_report.general_ledger_wizard"/>
+    <field name="arch" type="xml">
+        <xpath expr="//page[3]" position="after">
+            <page string="Filtro por Diarios">
+                <group>
+                    <field name="account_journal_ids" nolabel="1" widget="many2many_tags" options="{'no_create': True}"/>
+                </group>
+            </page>
+        </xpath>
+    </field>
+</record>
+</odoo>

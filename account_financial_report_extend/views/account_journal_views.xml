@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- account.journal inherit tree view -->
+<record id="view_account_journal_tree" model="ir.ui.view">
+    <field name="name">ACCOUNT FINANCIAL REPORT EXTEND add code</field>
+    <field name="model">account.journal</field>
+    <field name="inherit_id" ref="account.view_account_journal_tree"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='name']" position="after">
+            <field name="code"/>
+        </xpath>
+    </field>
+</record>
+</odoo>

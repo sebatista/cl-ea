@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Agregar OU en sale order type -->
     <record id="sot_sale_order_type_form_view" model="ir.ui.view">

@@ -27,6 +27,7 @@
     'website': 'http://github.com/jobiols/cl-ea',
     'license': 'AGPL-3',
     'depends': [
+        'account_financial_report'
     ],
     'data': [
     ],
@@ -52,8 +53,6 @@
     'port': '8069',
 
     'config': [
-        'workers = 0',
-        'max_cron_threads = 1',
     ],
 
     # list of url repos to install in the form 'repo-url directory'
