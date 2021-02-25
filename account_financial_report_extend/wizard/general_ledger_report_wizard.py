@@ -9,5 +9,6 @@ class GeneralLedgerReportWizard(models.TransientModel):
         'account.journal',
         string='Journals',
         required=True,
-        default=lambda self: self.env['account.journal'].search([])
+        # quieren el many2many vacio
+        #default=lambda self: self.env['account.journal'].search([])
     )
