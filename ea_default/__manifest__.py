@@ -91,7 +91,7 @@
         'https://github.com/itpp-labs/mail-addons.git itpp-mail-addons',
         'https://github.com/itpp-labs/misc-addons.git itpp-misc-addons',
         'https://github.com/itpp-labs/website-addons.git itpp-misc-addons',
-        'git@github.com:sebatista/EA_theme_laze.git seba-theme-laze'
+        'https://github.com/sebatista/EA_theme_laze.git seba-theme-laze'
     ],
 
     # list of images to use in the form 'name image-url'
