@@ -86,12 +86,17 @@
         'https://github.com/oca/sale-workflow.git oca-sale-workflow',
         'https://github.com/oca/stock-logistics-warehouse.git oca-stock-logistics-warehouse',
         'https://github.com/oca/server-ux.git oca-server-ux',
+
+        'https://github.com/itpp-labs/access-addons.git itpp-labs-access-addons',
+        'https://github.com/itpp-labs/mail-addons.git itpp-mail-addons',
+        'https://github.com/itpp-labs/misc-addons.git itpp-misc-addons',
+        'https://github.com/itpp-labs/website-addons.git itpp-misc-addons',
     ],
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
         'odoo jobiols/odoo-jeo:11.0',
-        'postgres postgres:9.5-alpine',
+        'postgres postgres:10.1-alpine',
         'aeroo jobiols/aeroo-docs',
         'nginx nginx'
     ]
