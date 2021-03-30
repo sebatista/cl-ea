@@ -73,6 +73,7 @@
 
         'https://github.com/oca/partner-contact.git',
         'https://github.com/oca/web.git',
+        'https://github.com/oca/website.git oca-website',
         'https://github.com/oca/account-financial-reporting.git',
         'https://github.com/oca/social.git',
         'https://github.com/oca/account-payment.git oca-account-payment',
