@@ -96,8 +96,9 @@
     ],
 
     # list of images to use in the form 'name image-url'
+    # se usa imagen 11.1 que incluye requerimientos para website_multi_theme
     'docker-images': [
-        'odoo jobiols/odoo-jeo:11.0',
+        'odoo jobiols/odoo-jeo:11.1',
         'postgres postgres:10.1-alpine',
         'aeroo jobiols/aeroo-docs',
         'nginx nginx'
