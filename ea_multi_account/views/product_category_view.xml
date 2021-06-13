@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- res.partner inherit form view -->
+<record id="product_category_form_view" model="ir.ui.view">
+    <field name="name">EA MULTI ACCOUNT</field>
+    <field name="model">product.category</field>
+    <field name="inherit_id" ref="product.product_category_form_view"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='property_account_income_categ_id']" position="after">
+            <field name="property_account_income_categ_x_id"/>
+        </xpath>
+        <xpath expr="//field[@name='property_account_expense_categ_id']" position="after">
+            <field name="property_account_expense_categ_x_id"/>
+        </xpath>
+    </field>
+</record>
+</odoo>
