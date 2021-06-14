@@ -21,7 +21,7 @@ EA Restrict Sale
 
 Este modulo agrega las siguientes características:
 
-- Restringir la modificación de precio y descripción de producto en la SO
+- Restringir la modificación de precio y descripción de producto en la Orden de venta
 
 **Table of contents**
 
@@ -31,9 +31,7 @@ Este modulo agrega las siguientes características:
 Configuration
 =============
 
-
-
-**Restringir la modificacion de precio y descripción en la Orden de Venta**
+En el perfil de usuario seleccionar **No modificar: Precio de venta y Descripcion, en SO**
 
 Bug Tracker
 ===========
