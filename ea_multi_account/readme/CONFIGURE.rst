@@ -21,7 +21,7 @@ En el partner se encuentran las cuentas:
 - Cuenta a cobrar
 - Cuenta a pagar
 
-Que se usan para las cotrapartidas de los asientos anteriores
+Que se usan para las contrapartidas de los asientos anteriores
 
 Este módulo agrega otras dos cuentas
 

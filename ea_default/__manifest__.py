@@ -27,8 +27,11 @@
     'website': 'http://github.com/jobiols/cl-ea',
     'license': 'AGPL-3',
     'depends': [
-        'account_financial_report',
-        'ea_multi_account'
+        'account_financial_report_extend',
+        'ea_aeroo_stock',
+        'ea_custom',
+        'ea_multi_account',
+        'ea_restrict_sale',
     ],
     'data': [
     ],
