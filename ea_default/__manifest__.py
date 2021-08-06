@@ -32,6 +32,9 @@
         'ea_custom',
         'ea_multi_account',
         'ea_restrict_sale',
+        'crm_operating_unit',
+        'sales_team_operating_unit',
+        'account_operating_unit',
     ],
     'data': [
     ],
@@ -62,6 +65,13 @@
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
         'https://github.com/sebatista/EA_Jobiols.git',
+
+        'https://github.com/jobiols/odoo-addons.git',
+        'https://github.com/oca/server-brand',
+        'https://github.com/ingadhoc/account-invoicing',
+
+
+
 
         'https://github.com/ingadhoc/odoo-argentina.git',
         'https://github.com/ingadhoc/account-financial-tools.git',
