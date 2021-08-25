@@ -17,7 +17,7 @@ multi account
     :target: https://github.com/jobiols/ea_jobiols/tree/11.0/ea_multi_account
     :alt: jobiols/ea_jobiols
 
-|badge1| |badge2| |badge3|
+|badge1| |badge2| |badge3| 
 
 Este modulo permite cambiar el set de cuentas que maneja una compra
 con un tilde en el pedido de compra
@@ -85,15 +85,9 @@ Seleccionar el tipo de venta al hacer una venta para que la contabilidad registr
 en un conjunto de cuentas o en el otro.
 
 Tener en cuenta que las cuentas X para el cliente son requeridas, por lo tanto
-al crear un cliente nuevo es obligatorio definirlas. Las cuentas normale tienen
-valores por defecto en la localizacion pero estas NO.
-Por tal motivo es necesario indicarlas en los parámetros del sistema de la siguiente
-forma:
-Parámetro para cuentas de cobro
-receivable_account_x	[X1.1.02.00.010]
-Parámetro para cuentas de pago
-payable_account_x	[X2.1.01.01.010]
-
+al crear un cliente nuevo es obligatorio definirlas. Las cuentas normales tienen
+valores por defecto en la localizacion, las cuentas X tienen valores por defecto
+en los parametros del sistema por ejemplo:
 
 ::
 
