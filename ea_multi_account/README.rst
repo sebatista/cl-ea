@@ -88,6 +88,12 @@ o en el otro.
 Tener en cuenta que las cuentas X para el cliente son requeridas, por lo tanto
 al crear un cliente nuevo es obligatorio definirlas. Las cuentas normale tienen
 valores por defecto en la localizacion pero estas NO.
+Por tal motivo es necesario indicarlas en los parámetros del sistema de la siguiente
+forma:
+Parámetro para cuentas de cobro
+receivable_account_x	[X1.1.02.00.010]
+Parámetro para cuentas de pago
+payable_account_x	[X2.1.01.01.010]
 
 
 Bug Tracker
