@@ -63,7 +63,7 @@ En el partner se encuentran las cuentas:
 - Cuenta a cobrar
 - Cuenta a pagar
 
-Que se usan para las cotrapartidas de los asientos anteriores
+Que se usan para las contrapartidas de los asientos anteriores
 
 Este módulo agrega otras dos cuentas
 
@@ -81,14 +81,18 @@ terminadas en X. Por defecto esta deshabilitado.
 Usage
 =====
 
-Seleccionar el tipo de pedido de compra al hacer una venta
-para que la contabilidad registre en un conjunto de cuentas
-o en el otro.
+Seleccionar el tipo de venta al hacer una venta para que la contabilidad registre
+en un conjunto de cuentas o en el otro.
 
 Tener en cuenta que las cuentas X para el cliente son requeridas, por lo tanto
-al crear un cliente nuevo es obligatorio definirlas. Las cuentas normale tienen
-valores por defecto en la localizacion pero estas NO.
+al crear un cliente nuevo es obligatorio definirlas. Las cuentas normales tienen
+valores por defecto en la localizacion, las cuentas X tienen valores por defecto
+en los parametros del sistema por ejemplo:
 
+::
+
+    receivable_account_x    X1.1.02.00.010
+    payable_account_x       X2.1.01.01.010
 
 Bug Tracker
 ===========

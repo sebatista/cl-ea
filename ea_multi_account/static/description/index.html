@@ -413,7 +413,7 @@ Este modulo no funcionará en cualquiera de las siguientes condiciones:</p>
 <li>Cuenta a cobrar</li>
 <li>Cuenta a pagar</li>
 </ul>
-<p>Que se usan para las cotrapartidas de los asientos anteriores</p>
+<p>Que se usan para las contrapartidas de los asientos anteriores</p>
 <p>Este módulo agrega otras dos cuentas</p>
 <ul class="simple">
 <li>Cuenta a cobrar X</li>
@@ -427,12 +427,16 @@ terminadas en X. Por defecto esta deshabilitado.</p>
 </div>
 <div class="section" id="usage">
 <h1><a class="toc-backref" href="#id2">Usage</a></h1>
-<p>Seleccionar el tipo de pedido de compra al hacer una venta
-para que la contabilidad registre en un conjunto de cuentas
-o en el otro.</p>
+<p>Seleccionar el tipo de venta al hacer una venta para que la contabilidad registre
+en un conjunto de cuentas o en el otro.</p>
 <p>Tener en cuenta que las cuentas X para el cliente son requeridas, por lo tanto
-al crear un cliente nuevo es obligatorio definirlas. Las cuentas normale tienen
-valores por defecto en la localizacion pero estas NO.</p>
+al crear un cliente nuevo es obligatorio definirlas. Las cuentas normales tienen
+valores por defecto en la localizacion, las cuentas X tienen valores por defecto
+en los parametros del sistema por ejemplo:</p>
+<pre class="literal-block">
+receivable_account_x    X1.1.02.00.010
+payable_account_x       X2.1.01.01.010
+</pre>
 </div>
 <div class="section" id="bug-tracker">
 <h1><a class="toc-backref" href="#id3">Bug Tracker</a></h1>
