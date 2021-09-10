@@ -41,6 +41,7 @@ class SaleOrder(models.Model):
             'fiscal_position_id': self.fiscal_position_id.id or self.partner_invoice_id.property_account_position_id.id,
             'company_id': company_id,
             'user_id': self.user_id and self.user_id.id,
-            'team_id': self.team_id.id
+            'team_id': self.team_id.id,
+            'sale_type_id': self.type_id.id
         }
         return invoice_vals

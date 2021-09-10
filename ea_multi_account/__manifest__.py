@@ -20,7 +20,7 @@
 
 {
     'name': 'multi account',
-    'version': '11.0.1.0.0',
+    'version': '11.0.2.0.0',
     'category': 'Accounting',
     'summary': "Maneja contabilidad múltiple",
     'author': "jeo Software",
