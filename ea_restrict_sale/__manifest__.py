@@ -2,7 +2,7 @@
 {
     "name": "EA Restrict Sale",
     "summary": "No permitir la modificación de Precio ni Descripcion en SO ni en Factura",
-    "version": "11.0.1.0.0",
+    "version": "11.0.0.0.0",
     "development_status": "Production/Stable",
     "category": "Accounting",
     "website": "https://github.com/sebatista/EA_Jobiols",
