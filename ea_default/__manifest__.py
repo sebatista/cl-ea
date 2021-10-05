@@ -24,8 +24,9 @@
     'category': 'Tools',
     'summary': "Eugenio Aguirre project module",
     'author': "jeo Software",
-    'website': 'http://github.com/jobiols/cl-ea',
+    'website': 'http://github.com/sebatista/cl-ea',
     'license': 'AGPL-3',
+	
     'depends': [
         'account_financial_report_extend',
         'ea_aeroo_stock',
@@ -36,59 +37,41 @@
         'sales_team_operating_unit',
         'account_operating_unit',
     ],
-    'data': [
-    ],
-    'installable': True,
-    'application': False,
-
-    'limit_request': '8196',
-    'limit_memory_soft': '640000000',
-    'limit_memory_hard': '760000000',
-    'limit_time_cpu': '60',
-    'limit_time_real': '120',
-
-    # Here begins odoo-env manifest configuration
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    # manifest version, if omitted it is backward compatible
-    'env-ver': '2',
-
-    # if Enterprise it installs in a different directory than community
-    'odoo-license': 'CE',
-
-    # port where odoo starts serving pages
-    'port': '8069',
-
-    'config': [
-    ],
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/sebatista/EA_Jobiols',
+        'https://github.com/sebatista/cl-ea',
+		
 		'git@github.com:sebatista/garazd_website sise-garazd_website',
         'git@github.com:sebatista/EA_theme_laze tema',
 		
-		'https://github.com/sebatista/jobiols-odoo-addons sise-jobiols-odoo-addons',
+		
+		# JEO
+		'https://github.com/sebatista/jobiols-odoo-addons jeo-jobiols-odoo-addons',
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
 		
+		# Regaby
 		'https://github.com/regaby/odoo-addons regaby-odoo-addons',
 		
+		# Akretion
 		'https://github.com/akretion/odoo-usability akretion-odoo-usability',
 		
+		# ADHOC
         'https://github.com/ingadhoc/account-invoicing adhoc-account-invoicing',
-        'https://github.com/ingadhoc/odoo-argentina.git adhoc-odoo-argentina',
-        'https://github.com/ingadhoc/account-financial-tools.git',
-        'https://github.com/ingadhoc/account-payment.git adhoc-account-payment',
-        'https://github.com/ingadhoc/miscellaneous.git',
-        'https://github.com/ingadhoc/argentina-reporting.git',
-        'https://github.com/ingadhoc/reporting-engine.git',
-        'https://github.com/ingadhoc/aeroo_reports.git',
-        'https://github.com/ingadhoc/sale.git ingadhoc-sale',
-        'https://github.com/ingadhoc/product.git ingadhoc-product',
-        'https://github.com/ingadhoc/argentina-sale.git',
+        'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
+        'https://github.com/ingadhoc/account-financial-tools adhoc-account-financial-tools',
+        'https://github.com/ingadhoc/account-payment adhoc-account-payment',
+        'https://github.com/ingadhoc/miscellaneous adhoc-miscellaneous',
+        'https://github.com/ingadhoc/argentina-reporting adhoc-argentina-reporting',
+        'https://github.com/ingadhoc/reporting-engine adhoc-reporting-engine',
+        'https://github.com/ingadhoc/aeroo_reports adhoc-aeroo_reports',
+        'https://github.com/ingadhoc/sale adhoc-sale',
+        'https://github.com/ingadhoc/product adhoc-product',
+        'https://github.com/ingadhoc/argentina-sale adhoc-argentina-sale',
         'https://github.com/ingadhoc/stock adhoc-stock',
 		'https://github.com/ingadhoc/multi-store adhoc-multi-store',
 
+		# OCA
         'https://github.com/oca/server-brand oca-server-brand',
 		'https://github.com/OCA/account-analytic oca-account-analytic',
 		'https://github.com/OCA/account-financial-reporting oca-account-financial-reporting',
@@ -124,7 +107,7 @@
 		'https://github.com/OCA/web oca-web',
 		'https://github.com/OCA/website oca-website',
 
-
+		# ITPP
         'https://github.com/itpp-labs/access-addons itpp-labs-access-addons',
         'https://github.com/itpp-labs/mail-addons itpp-mail-addons',
         'https://github.com/itpp-labs/misc-addons itpp-misc-addons',
@@ -139,5 +122,31 @@
         'postgres postgres:10.1-alpine',
         'aeroo jobiols/aeroo-docs',
         'nginx nginx'
-    ]
+    ],
+	
+    'data': [
+    ],
+    'installable': True,
+    'application': False,
+
+    'limit_request': '8196',
+    'limit_memory_soft': '640000000',
+    'limit_memory_hard': '760000000',
+    'limit_time_cpu': '60',
+    'limit_time_real': '120',
+
+    # Here begins odoo-env manifest configuration
+    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    # manifest version, if omitted it is backward compatible
+    'env-ver': '2',
+
+    # if Enterprise it installs in a different directory than community
+    'odoo-license': 'CE',
+
+    # port where odoo starts serving pages
+    'port': '8069',
+
+    'config': [
+    ],
 }
