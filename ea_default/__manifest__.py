@@ -20,12 +20,14 @@
 
 {
     'name': 'EA',
-    'version': '11.0.1.0.0',
+    'version': '11.0.0.0.0',
     'category': 'Tools',
     'summary': "Eugenio Aguirre project module",
     'author': "jeo Software",
     'website': 'http://github.com/sebatista/cl-ea',
     'license': 'AGPL-3',
+
+    'env-ver': '2',
 	
     'depends': [
         'account_financial_report_extend',
