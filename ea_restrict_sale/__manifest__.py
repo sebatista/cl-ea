@@ -1,6 +1,6 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
-    "name": "EA Restrict Sale",
+    "name": "Restrict Sale",
     "summary": "No permitir la modificación de Precio ni Descripcion en SO ni en Factura",
     "version": "11.0.0.0.0",
     "development_status": "Production/Stable",
