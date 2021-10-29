@@ -48,6 +48,7 @@
         'limit_time_cpu = 60',
         'limit_time_real = 120',
     ],
+    'prod_server': 'ubuntu@ea',
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
