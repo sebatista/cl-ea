@@ -20,15 +20,13 @@
 
 {
     'name': 'EA',
-    'version': '11.0.0.0.0',
+    'version': '11.0.1.0.0',
     'category': 'Tools',
     'summary': "Eugenio Aguirre project module",
     'author': "jeo Software",
     'website': 'http://github.com/sebatista/cl-ea',
     'license': 'AGPL-3',
 
-    'env-ver': '2',
-	
     'depends': [
         'account_financial_report_extend',
         'ea_aeroo_stock',
@@ -40,24 +38,34 @@
         'account_operating_unit',
     ],
 
+    'env-ver': '2',
+    'odoo-license': 'CE',
+    'port': '8069',
+    'config': [
+        'limit_request = 8196',
+        'limit_memory_soft = 640000000',
+        'limit_memory_hard = 760000000',
+        'limit_time_cpu = 60',
+        'limit_time_real = 120',
+    ],
+
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
         'https://github.com/sebatista/cl-ea',
-		
+
 		'git@github.com:sebatista/garazd_website sise-garazd_website',
         'git@github.com:sebatista/EA_theme_laze tema',
-		
-		
+
 		# JEO
 		'https://github.com/sebatista/jobiols-odoo-addons jeo-jobiols-odoo-addons',
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
-		
+
 		# Regaby
 		'https://github.com/regaby/odoo-addons regaby-odoo-addons',
-		
+
 		# Akretion
 		'https://github.com/akretion/odoo-usability akretion-odoo-usability',
-		
+
 		# ADHOC
         'https://github.com/ingadhoc/account-invoicing adhoc-account-invoicing',
         'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
@@ -114,7 +122,7 @@
         'https://github.com/itpp-labs/mail-addons itpp-mail-addons',
         'https://github.com/itpp-labs/misc-addons itpp-misc-addons',
         'https://github.com/itpp-labs/website-addons itpp-website-addons',
-		
+
     ],
 
     # list of images to use in the form 'name image-url'
@@ -125,30 +133,9 @@
         'aeroo jobiols/aeroo-docs',
         'nginx nginx'
     ],
-	
+
     'data': [
     ],
     'installable': True,
     'application': False,
-
-    'limit_request': '8196',
-    'limit_memory_soft': '640000000',
-    'limit_memory_hard': '760000000',
-    'limit_time_cpu': '60',
-    'limit_time_real': '120',
-
-    # Here begins odoo-env manifest configuration
-    # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    # manifest version, if omitted it is backward compatible
-    'env-ver': '2',
-
-    # if Enterprise it installs in a different directory than community
-    'odoo-license': 'CE',
-
-    # port where odoo starts serving pages
-    'port': '8069',
-
-    'config': [
-    ],
 }
