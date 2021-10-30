@@ -124,6 +124,8 @@
         'https://github.com/itpp-labs/misc-addons itpp-misc-addons',
         'https://github.com/itpp-labs/website-addons itpp-website-addons',
 
+        # CTMIL
+        'https://github.com/ctmil/payment_mercadopago.git ctmil/mercadopago',
     ],
 
     # list of images to use in the form 'name image-url'
