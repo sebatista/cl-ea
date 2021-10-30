@@ -64,6 +64,7 @@
 
 		# Regaby
 		'https://github.com/regaby/odoo-addons regaby-odoo-addons',
+        'https://github.com/sebatista/EA_regaby regaby-ea_regaby',
 
 		# Akretion
 		'https://github.com/akretion/odoo-usability akretion-odoo-usability',
