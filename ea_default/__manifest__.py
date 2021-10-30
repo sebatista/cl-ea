@@ -60,6 +60,7 @@
 		# JEO
 		'https://github.com/sebatista/jobiols-odoo-addons jeo-jobiols-odoo-addons',
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
+        'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
 
 		# Regaby
 		'https://github.com/regaby/odoo-addons regaby-odoo-addons',
@@ -81,6 +82,7 @@
         'https://github.com/ingadhoc/argentina-sale adhoc-argentina-sale',
         'https://github.com/ingadhoc/stock adhoc-stock',
 		'https://github.com/ingadhoc/multi-store adhoc-multi-store',
+		'https://github.com/ingadhoc/website adhoc-website',
 
 		# OCA
         'https://github.com/oca/server-brand oca-server-brand',
