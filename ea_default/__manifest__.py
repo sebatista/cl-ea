@@ -24,7 +24,7 @@
     'category': 'Tools',
     'summary': "Eugenio Aguirre project module",
     'author': "jeo Software",
-    'website': 'http://github.com/sebatista/cl-ea',
+    'website': 'http://github.com/siseservicios/cl-ea',
     'license': 'AGPL-3',
 
     'depends': [
@@ -52,19 +52,19 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/sebatista/cl-ea',
+        'https://github.com/siseservicios/cl-ea',
 
-		'git@github.com:sebatista/garazd_website sise-garazd_website',
-        'git@github.com:sebatista/EA_theme_laze tema',
+		'git@github.com:siseservicios/garazd_website sise-garazd_website',
+        'git@github.com:siseservicios/EA_theme_laze tema',
 
 		# JEO
-		'https://github.com/sebatista/jobiols-odoo-addons jeo-jobiols-odoo-addons',
+		'https://github.com/siseservicios/jobiols-odoo-addons jeo-jobiols-odoo-addons',
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
         'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
 
 		# Regaby
 		'https://github.com/regaby/odoo-addons regaby-odoo-addons',
-        'https://github.com/sebatista/EA_regaby regaby-ea_regaby',
+        'https://github.com/siseservicios/EA_regaby regaby-ea_regaby',
 
 		# Akretion
 		'https://github.com/akretion/odoo-usability akretion-odoo-usability',
