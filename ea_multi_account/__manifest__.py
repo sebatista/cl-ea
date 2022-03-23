@@ -28,13 +28,15 @@
     'license': 'AGPL-3',
     'depends': [
         'sale_order_type',
-        'product'
+        'product',
+        'account_operating_unit',
     ],
     'data': [
         'views/sale_order_type_view.xml',
         'views/res_partner_view.xml',
         'views/product_template_view.xml',
-        'views/product_category_view.xml'
+        'views/product_category_view.xml',
+        'views/account_journal.xml',
     ],
     'installable': True,
     'application': False,
