@@ -52,24 +52,24 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/siseservicios/cl-ea',
+        'git@github.com:siseservicios/cl-ea.git',
 
-		'git@github.com:siseservicios/garazd_website sise-garazd_website',
+	'git@github.com:siseservicios/garazd_website sise-garazd_website',
         'git@github.com:siseservicios/EA_theme_laze tema',
 
-		# JEO
-		'https://github.com/siseservicios/jobiols-odoo-addons jeo-jobiols-odoo-addons',
+	# JEO
+	'https://github.com/siseservicios/jobiols-odoo-addons jeo-jobiols-odoo-addons',
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
         'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
 
-		# Regaby
-		'https://github.com/regaby/odoo-addons regaby-odoo-addons',
+	# Regaby
+	'https://github.com/regaby/odoo-addons regaby-odoo-addons',
         'https://github.com/siseservicios/EA_regaby regaby-ea_regaby',
 
-		# Akretion
-		'https://github.com/akretion/odoo-usability akretion-odoo-usability',
+	# Akretion
+	'https://github.com/akretion/odoo-usability akretion-odoo-usability',
 
-		# ADHOC
+	# ADHOC
         'https://github.com/ingadhoc/account-invoicing adhoc-account-invoicing',
         'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
         'https://github.com/ingadhoc/account-financial-tools adhoc-account-financial-tools',
@@ -82,44 +82,44 @@
         'https://github.com/ingadhoc/product adhoc-product',
         'https://github.com/ingadhoc/argentina-sale adhoc-argentina-sale',
         'https://github.com/ingadhoc/stock adhoc-stock',
-		'https://github.com/ingadhoc/multi-store adhoc-multi-store',
-		'https://github.com/ingadhoc/website adhoc-website',
+	'https://github.com/ingadhoc/multi-store adhoc-multi-store',
+	'https://github.com/ingadhoc/website adhoc-website',
 
-		# OCA
+	# OCA
         'https://github.com/oca/server-brand oca-server-brand',
-		'https://github.com/OCA/account-analytic oca-account-analytic',
-		'https://github.com/OCA/account-financial-reporting oca-account-financial-reporting',
-		'https://github.com/OCA/account-financial-tools oca-account-financial-tools',
-		'https://github.com/OCA/account-invoicing oca-account-invoicing',
-		'https://github.com/OCA/account-payment oca-account-payment',
-		'https://github.com/OCA/commission oca-commission',
-		'https://github.com/OCA/contract oca-contract',
-		'https://github.com/OCA/credit-control.git oca-credit-control',
-		'https://github.com/OCA/crm oca-crm',
-		'https://github.com/OCA/e-commerce oca-e-commerce',
-		'https://github.com/OCA/hr oca-hr',
-		'https://github.com/OCA/hr-timesheet oca-hr-timesheet',
-		'https://github.com/OCA/knowledge oca-knowledge',
-		'https://github.com/OCA/manufacture oca-manufacture',
-		'https://github.com/OCA/margin-analysis oca-margin-analysis',
-		'https://github.com/OCA/operating-unit.git oca-operating-unit',
-		'https://github.com/OCA/partner-contact oca-partner-contact',
-		'https://github.com/OCA/product-attribute oca-product-attribute',
-		'https://github.com/OCA/product-variant oca-product-variant',
-		'https://github.com/OCA/purchase-workflow oca-purchase-workflow',
-		'https://github.com/OCA/queue oca-queue',
-		'https://github.com/OCA/reporting-engine oca-reporting-engine',
-		#'https://github.com/OCA/report-print-send oca-report-print-send',
-		'https://github.com/OCA/sale-financial oca-sale-financial',
-		'https://github.com/OCA/sale-reporting.git oca-sale-reporting',
-		'https://github.com/OCA/sale-workflow oca-sale-workflow',
-		'https://github.com/OCA/server-tools oca-server-tools',
-		'https://github.com/OCA/server-ux oca-server-ux',
-		'https://github.com/OCA/social oca-social',
-		'https://github.com/OCA/stock-logistics-warehouse oca-stock-logistics-warehouse',
-		'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
-		'https://github.com/OCA/web oca-web',
-		'https://github.com/OCA/website oca-website',
+	'https://github.com/OCA/account-analytic oca-account-analytic',
+	'https://github.com/OCA/account-financial-reporting oca-account-financial-reporting',
+	'https://github.com/OCA/account-financial-tools oca-account-financial-tools',
+	'https://github.com/OCA/account-invoicing oca-account-invoicing',
+	'https://github.com/OCA/account-payment oca-account-payment',
+	'https://github.com/OCA/commission oca-commission',
+	'https://github.com/OCA/contract oca-contract',
+	'https://github.com/OCA/credit-control.git oca-credit-control',
+	'https://github.com/OCA/crm oca-crm',
+	'https://github.com/OCA/e-commerce oca-e-commerce',
+	'https://github.com/OCA/hr oca-hr',
+	'https://github.com/OCA/hr-timesheet oca-hr-timesheet',
+	'https://github.com/OCA/knowledge oca-knowledge',
+	'https://github.com/OCA/manufacture oca-manufacture',
+	'https://github.com/OCA/margin-analysis oca-margin-analysis',
+	'https://github.com/OCA/operating-unit.git oca-operating-unit',
+	'https://github.com/OCA/partner-contact oca-partner-contact',
+	'https://github.com/OCA/product-attribute oca-product-attribute',
+	'https://github.com/OCA/product-variant oca-product-variant',
+	'https://github.com/OCA/purchase-workflow oca-purchase-workflow',
+	'https://github.com/OCA/queue oca-queue',
+	'https://github.com/OCA/reporting-engine oca-reporting-engine',
+	#'https://github.com/OCA/report-print-send oca-report-print-send',
+	'https://github.com/OCA/sale-financial oca-sale-financial',
+	'https://github.com/OCA/sale-reporting.git oca-sale-reporting',
+	'https://github.com/OCA/sale-workflow oca-sale-workflow',
+	'https://github.com/OCA/server-tools oca-server-tools',
+	'https://github.com/OCA/server-ux oca-server-ux',
+	'https://github.com/OCA/social oca-social',
+	'https://github.com/OCA/stock-logistics-warehouse oca-stock-logistics-warehouse',
+	'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
+	'https://github.com/OCA/web oca-web',
+	'https://github.com/OCA/website oca-website',
 
 		# ITPP
         'https://github.com/itpp-labs/access-addons itpp-labs-access-addons',
