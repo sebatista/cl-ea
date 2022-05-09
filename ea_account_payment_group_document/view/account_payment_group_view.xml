@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="view_account_payment_group_form_inherit" model="ir.ui.view">
+        <field name="name">Agrega unidad de operación</field>
+        <field name="model">account.payment.group</field>
+        <field name="inherit_id" ref="account_payment_group_document.view_account_payment_group_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='receiptbook_id']" position="replace">
+                <field name="operating_unit_ids" groups="operating_unit.group_multi_operating_unit" invisible="1"/>
+                <field name="receiptbook_id"
+                attrs="{'invisible': [('localization', '=', False)], 'required':[('localization', '!=', False), ('state', '=', 'draft')]}"
+                domain="[
+                        ('partner_type', '=', partner_type),
+                        ('company_id', '=', company_id),
+                        ('operating_unit_id', 'in', operating_unit_ids),
+                        ]"
+                />
+
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>
