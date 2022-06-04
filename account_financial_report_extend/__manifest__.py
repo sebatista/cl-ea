@@ -11,11 +11,9 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": [
-        'account_financial_report'
-    ],
+    "depends": ["account_financial_report"],
     "data": [
-        'wizard/general_ledger_wizard_view.xml',
-        'views/account_journal_views.xml'
+        "wizard/general_ledger_wizard_view.xml",
+        "views/account_journal_views.xml",
     ],
 }

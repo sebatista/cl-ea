@@ -9,8 +9,7 @@ class SaleAdvancePaymentInv(models.TransientModel):
 
     @api.multi
     def _create_invoice(self, order, so_line, amount):
-        """ sobreescribimos este metodo para pasarle a la factura el tipo de venta
-        """
+        """sobreescribimos este metodo para pasarle a la factura el tipo de venta"""
         ret = super(SaleAdvancePaymentInv, self)._create_invoice(order, so_line, amount)
         ret.sale_type_id = order.type_id
 

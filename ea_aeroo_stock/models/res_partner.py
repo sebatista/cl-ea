@@ -1,15 +1,14 @@
 from odoo import models, fields, api
 
+
 class ResPartner(models.Model):
     _inherit = "res.partner"
 
-
     delivery_address_id = fields.Many2one(
-        'res.partner',
-        compute="_compute_delivery_address"
+        "res.partner", compute="_compute_delivery_address"
     )
 
-    @api.depends('type')
+    @api.depends("type")
     def _compute_delivery_address(self):
 
         for rec in self:

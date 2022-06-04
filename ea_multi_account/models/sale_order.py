@@ -1,6 +1,7 @@
 from odoo import models, fields, api, _
 from odoo.exceptions import UserError
 
+
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
@@ -23,7 +24,9 @@ class SaleOrder(models.Model):
         #     .default_get(['journal_id'])['journal_id'])
 
         if not journal_id:
-            raise UserError(_('Please define an accounting sales journal for this company.'))
+            raise UserError(
+                _("Please define an accounting sales journal for this company.")
+            )
 
         xxx = self.type_id.account_x
         if xxx:
@@ -32,20 +35,21 @@ class SaleOrder(models.Model):
             account_id = self.partner_invoice_id.property_account_receivable_id.id
 
         invoice_vals = {
-            'name': self.client_order_ref or '',
-            'origin': self.name,
-            'type': 'out_invoice',
-            'account_id': account_id,
-            'partner_id': self.partner_invoice_id.id,
-            'partner_shipping_id': self.partner_shipping_id.id,
-            'journal_id': journal_id,
-            'currency_id': self.pricelist_id.currency_id.id,
-            'comment': self.note,
-            'payment_term_id': self.payment_term_id.id,
-            'fiscal_position_id': self.fiscal_position_id.id or self.partner_invoice_id.property_account_position_id.id,
-            'company_id': company_id,
-            'user_id': self.user_id and self.user_id.id,
-            'team_id': self.team_id.id,
-            'sale_type_id': self.type_id.id
+            "name": self.client_order_ref or "",
+            "origin": self.name,
+            "type": "out_invoice",
+            "account_id": account_id,
+            "partner_id": self.partner_invoice_id.id,
+            "partner_shipping_id": self.partner_shipping_id.id,
+            "journal_id": journal_id,
+            "currency_id": self.pricelist_id.currency_id.id,
+            "comment": self.note,
+            "payment_term_id": self.payment_term_id.id,
+            "fiscal_position_id": self.fiscal_position_id.id
+            or self.partner_invoice_id.property_account_position_id.id,
+            "company_id": company_id,
+            "user_id": self.user_id and self.user_id.id,
+            "team_id": self.team_id.id,
+            "sale_type_id": self.type_id.id,
         }
         return invoice_vals

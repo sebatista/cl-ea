@@ -11,13 +11,7 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": [
-        'sale',
-        'sale_order_type'
-    ],
-    "data": [
-        'views/sale_order_view.xml',
-        'views/sale_order_type_view.xml'
-    ],
-    'sequence': 1
+    "depends": ["sale", "sale_order_type"],
+    "data": ["views/sale_order_view.xml", "views/sale_order_type_view.xml"],
+    "sequence": 1,
 }

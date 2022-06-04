@@ -19,26 +19,25 @@
 ##############################################################################
 
 {
-    'name': 'multi account',
-    'version': '11.0.2.0.0',
-    'category': 'Accounting',
-    'summary': "Maneja contabilidad múltiple",
-    'author': "jeo Software",
-    'website': 'http://github.com/jobiols/cl-ea',
-    'license': 'AGPL-3',
-    'depends': [
-        'sale_order_type',
-        'product',
-        'account_operating_unit',
+    "name": "multi account",
+    "version": "11.0.2.0.0",
+    "category": "Accounting",
+    "summary": "Maneja contabilidad múltiple",
+    "author": "jeo Software",
+    "website": "http://github.com/jobiols/cl-ea",
+    "license": "AGPL-3",
+    "depends": [
+        "sale_order_type",
+        "product",
+        "account_operating_unit",
     ],
-    'data': [
-        'views/sale_order_type_view.xml',
-        'views/res_partner_view.xml',
-        'views/product_template_view.xml',
-        'views/product_category_view.xml',
-        'views/account_journal.xml',
+    "data": [
+        "views/sale_order_type_view.xml",
+        "views/res_partner_view.xml",
+        "views/product_template_view.xml",
+        "views/product_category_view.xml",
+        "views/account_journal.xml",
     ],
-    'installable': True,
-    'application': False,
-
+    "installable": True,
+    "application": False,
 }

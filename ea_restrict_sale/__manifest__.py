@@ -12,11 +12,11 @@
     "application": False,
     "installable": True,
     "depends": [
-        'sale',
+        "sale",
     ],
     "data": [
-        'security/price_security_security.xml',
-        'views/sale_order_view.xml',
+        "security/price_security_security.xml",
+        "views/sale_order_view.xml",
     ],
-    'sequence': 2
+    "sequence": 2,
 }
