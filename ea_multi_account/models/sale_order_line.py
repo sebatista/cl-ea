@@ -27,14 +27,14 @@ class SaleOrderLine(models.Model):
         if not account:
             raise UserError(
                 _(
-                    'Please define income account for this product: '
-                    '"%s" (id:%d) - or for its category: "%s".'
+                    "Please define income account for this product: "
+                    '"%(name)s" (id:%(id)d) - or for its category: "%(categ)s".'
                 )
-                % (
-                    self.product_id.name,
-                    self.product_id.id,
-                    self.product_id.categ_id.name,
-                )
+                % {
+                    "name": self.product_id.name,
+                    "id": self.product_id.id,
+                    "categ": self.product_id.categ_id.name,
+                }
             )
 
         fpos = (

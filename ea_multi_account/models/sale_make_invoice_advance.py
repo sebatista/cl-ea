@@ -10,8 +10,8 @@ class SaleAdvancePaymentInv(models.TransientModel):
 
     @api.multi
     def _create_invoice(self, order, so_line, amount):
-        """ sobreescribimos este metodo para pasarle a la factura el tipo de venta
-            Aca entra solo cuando hacen un down payment
+        """sobreescribimos este metodo para pasarle a la factura el tipo de venta
+        Aca entra solo cuando hacen un down payment
         """
         ret = super(SaleAdvancePaymentInv, self)._create_invoice(order, so_line, amount)
         ret.sale_type_id = order.type_id
@@ -27,20 +27,17 @@ class SaleAdvancePaymentInv(models.TransientModel):
         if not account:
             raise UserError(
                 _(
-                    'Please define income account for this product: '
-                    '"%s" (id:%d) - or for its category: "%s".'
+                    "Please define income account for this product: "
+                    '"%(name)s" (id:%(id)d) - or for its category: "%(categ)s".'
                 )
-                % (
-                    self.product_id.name,
-                    self.product_id.id,
-                    self.product_id.categ_id.name,
-                )
+                % {
+                    "name": self.product_id.name,
+                    "id": self.product_id.id,
+                    "categ": self.product_id.categ_id.name,
+                }
             )
 
-        fpos = (
-            order.fiscal_position_id
-            or order.partner_id.property_account_position_id
-        )
+        fpos = order.fiscal_position_id or order.partner_id.property_account_position_id
         if fpos:
             account = fpos.map_account(account)
 
