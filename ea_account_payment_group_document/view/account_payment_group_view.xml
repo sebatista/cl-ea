@@ -9,7 +9,8 @@
         <field name="arch" type="xml">
 
             <xpath expr="//field[@name='receiptbook_id']" position="replace">
-                <field name="operating_unit_ids" groups="operating_unit.group_multi_operating_unit" invisible="1"/>
+                <!-- <field name="operating_unit_ids" widget="many2many_tags"/> -->
+                <field name="operating_unit_ids" invisible="1"/>
                 <field name="receiptbook_id"
                 attrs="{'invisible': [('localization', '=', False)], 'required':[('localization', '!=', False), ('state', '=', 'draft')]}"
                 domain="[
